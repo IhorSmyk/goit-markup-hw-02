@@ -24,17 +24,16 @@
 
 /*all*/
 
-.logo {
-    color: #000000;
+header .logo {
+  color: #000000;
 }
 .logo-web {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 body {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
-
 
 ul {
   list-style: none;
@@ -47,3 +46,18 @@ footer .links:focus {
   color: #2196f3;
 }
 
+footer {
+  background-color: #2f303a;
+}
+
+footer .logo {
+  color: #ffffff;
+}
+
+footer .link-map {
+  color: #ffffff;
+}
+
+footer .link-contact {
+  color: rgb(255, 255, 255, 0.6);
+}
