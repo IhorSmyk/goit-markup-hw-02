@@ -1,0 +1,49 @@
+/*index styles*/
+
+.mainsection {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.mainsection-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/*portfolio styles*/
+
+.buttons-button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.buttons-button:hover,
+.buttons-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/*all*/
+
+.logo {
+    color: #000000;
+}
+.logo-web {
+    color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+
+ul {
+  list-style: none;
+}
+
+header .links:hover,
+header .links:focus,
+footer .links:hover,
+footer .links:focus {
+  color: #2196f3;
+}
+
