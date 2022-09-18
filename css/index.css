@@ -1,0 +1,10 @@
+
+
+.mainsection {
+  background-color: var(--background-color3);
+  color: var(--foreground-color3);
+}
+.mainsection-button {
+  background-color: var(--hoverfocus-color);
+  color: var(--foreground-color3);
+}

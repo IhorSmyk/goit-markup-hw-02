@@ -1,0 +1,12 @@
+
+
+.buttons-sort {
+  background-color: var(--background-color2);
+  color: var(--foreground-color1);
+}
+
+.buttons-sort:hover,
+.buttons-sort:focus {
+  background-color: var(--hoverfocus-color);
+  color: var(--foreground-color3);
+}
