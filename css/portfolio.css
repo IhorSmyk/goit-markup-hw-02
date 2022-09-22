@@ -3,6 +3,7 @@
 .buttons-sort {
   background-color: var(--background-color2);
   color: var(--foreground-color1);
+  font-family: inherit;
 }
 
 .buttons-sort:hover,
