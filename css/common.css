@@ -62,8 +62,10 @@ ul {
 
 header .link:hover,
 header .link:focus,
-footer .link:hover,
-footer .link:focus {
+footer .link-map:hover,
+footer .link-map:focus,
+footer .link-contact:hover,
+footer .link-contact:focus {
   color: var(--hoverfocus-color);
 }
 
