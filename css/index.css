@@ -1,3 +1,11 @@
+.background-a {
+  background-color: var(--foreground-color3);
+}
+
+.background-b {
+  background-color: var(--background-color2);
+}
+
 .mainsection {
   background-color: var(--background-color3);
   color: var(--foreground-color3);
@@ -27,15 +35,7 @@
   letter-spacing: 0.06em;
 }
 
-.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.description h3 {
+.description-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -44,10 +44,37 @@
   text-transform: uppercase;
 }
 
-.description p {
+.description-p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.about-job .title,
+.our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--foreground-color1);
+}
+
+.our-team .position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--foreground-color2);
 }
