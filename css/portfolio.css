@@ -2,6 +2,7 @@
   background-color: var(--background-color2);
   color: var(--foreground-color1);
   font-family: inherit;
+  cursor: pointer;
 }
 
 .buttons-sort:hover,

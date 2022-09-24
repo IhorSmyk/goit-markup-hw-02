@@ -1,5 +1,5 @@
 .background-a {
-  background-color: var(--foreground-color3);
+  background-color: var(--background-color1);
 }
 
 .background-b {
@@ -24,7 +24,7 @@
   background-color: var(--hoverfocus-color);
   color: var(--foreground-color3);
   font-family: inherit;
-
+  cursor: pointer;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
