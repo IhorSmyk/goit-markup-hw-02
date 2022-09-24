@@ -43,14 +43,14 @@ header .link {
   letter-spacing: 0.02em;
 }
 
-p {
+/* p {
   color: var(--foreground-color2);
-}
+} */
 
-h2,
+/* h2,
 h3 {
   color: var(--foreground-color1);
-}
+} */
 
 body {
   background-color: var(--foreground-color3);
