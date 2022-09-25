@@ -45,6 +45,7 @@
 }
 
 .description-p {
+  color: var(--foreground-color2);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -67,14 +68,13 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--foreground-color1);
 }
 
 .our-team .position {
+  color: var(--foreground-color2);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--foreground-color2);
 }
