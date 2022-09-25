@@ -18,7 +18,7 @@ ul {
   list-style: none;
 }
 
-header .logo {
+.header .logo {
   color: #000000;
 
   font-family: "Raleway";
@@ -33,7 +33,9 @@ header .logo {
   color: var(--hoverfocus-color);
 }
 
-.site-nav .current {
+/*підвищив специфічність до трьох тегів,
+ бо інакше правило не працює */
+.header .site-nav .current {
   color: var(--hoverfocus-color);
 }
 
@@ -55,20 +57,20 @@ header .logo {
   text-decoration: none;
 }
 
-header .link:hover,
-header .link:focus,
-footer .link-map:hover,
-footer .link-map:focus,
-footer .link-contact:hover,
-footer .link-contact:focus {
+.header .link:hover,
+.header .link:focus,
+.footer .link-map:hover,
+.footer .link-map:focus,
+.footer .link-contact:hover,
+.footer .link-contact:focus {
   color: var(--hoverfocus-color);
 }
 
-footer {
+.footer {
   background-color: var(--background-color3);
 }
 
-footer .logo {
+.footer .logo {
   color: var(--foreground-color3);
   font-family: "Raleway";
   font-weight: 700;
@@ -78,8 +80,8 @@ footer .logo {
   text-decoration: none;
 }
 
-footer .link-map,
-footer .link-contact {
+.footer .link-map,
+.footer .link-contact {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -88,10 +90,10 @@ footer .link-contact {
   text-decoration: none;
 }
 
-footer .link-map {
+.footer .link-map {
   color: var(--foreground-color3);
 }
 
-footer .link-contact {
+.footer .link-contact {
   color: rgb(255, 255, 255, 0.6);
 }
